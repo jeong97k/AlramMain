@@ -105,8 +105,8 @@ public class MainActivity extends AppCompatActivity implements DatePicker.OnDate
         Notification.Builder builder = new Notification.Builder(this)
                 .setSmallIcon(R.drawable.icon)
                 .setContentTitle("111")
-                .setTicker("222");
-
+                .setTicker("222")
+                .setContentIntent(pi);
         mNotification.notify(1234, noti); // NOTIFICATION_ID의 고유 ID를 가지는 notification을 표시합니다.
         Log.v("LEE", "mNotification22");
 
