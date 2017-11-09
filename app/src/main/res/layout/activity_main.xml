@@ -43,7 +43,7 @@
                     android:layout_alignParentTop="true"
                     android:layout_toEndOf="@+id/textView11"
                     android:layout_toRightOf="@+id/textView11"
-                    android:text="일일" />
+                    android:text="일일일" />
 
                 <TextView
                     android:id="@+id/textView9"
